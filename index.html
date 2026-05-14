@@ -1,87 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>45-Day Data Analyst Tracker</title>
+<head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <meta charset="UTF-8">
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <title>
+    45-Day Data Analyst Tracker
+  </title>
 
-  <body>
-    <div class="container">
-      <!-- HEADER -->
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
 
-      <div class="header">
-        <img src="your-photo1.jpg" alt="Profile Photo" class="profile-photo" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
 
-        <h1>45-Day Data Analyst Tracker 🚀</h1>
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 
-        <p>Daily learning progress toward Data Analyst job</p>
-      </div>
+</head>
 
-      <!-- STATS -->
+<body>
 
-      <div class="stats">
-        <div class="card">
-          <h4>Total Study Hours</h4>
-          <h2 id="totalHours">0</h2>
-        </div>
+  <div class="container">
 
-        <div class="card">
-          <h4>Goal</h4>
-          <h2>Data Analyst 💼</h2>
-        </div>
+    <!-- HEADER -->
 
-        <div class="card">
-          <h4>Total Days</h4>
-          <h2>45</h2>
-        </div>
-      </div>
+    <div class="header">
 
-      <!-- TRACKER -->
+      <img
+        src="your-photo.jpg"
+        alt="Profile Photo"
+        class="profile-photo"
+      >
 
-      <div class="tracker">
-        <div class="top-bar">
-          <h2>Daily Learning Tracker</h2>
+      <h1>
+        45-Day Data Analyst Tracker 🚀
+      </h1>
 
-          <div class="button-group">
-            <button id="saveBtn">Save Data 💾</button>
+      <p>
+        Daily learning progress toward
+        Data Analyst Job
+      </p>
 
-            <button id="updateBtn">Update Data 🔄</button>
-          </div>
-        </div>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Day</th>
-              <th>Topic Covered</th>
-              <th>Hours</th>
-              <th>Excel</th>
-              <th>SQL</th>
-              <th>Python</th>
-              <th>Power BI</th>
-              <th>Tableau</th>
-              <th>Projects</th>
-            </tr>
-          </thead>
-
-          <tbody id="trackerBody"></tbody>
-        </table>
-      </div>
-
-      <div class="footer">Small daily progress creates big success 📈</div>
     </div>
 
-    <script type="module" src="script.js"></script>
-  </body>
+    <!-- STATS -->
+
+    <div class="stats">
+
+      <div class="card">
+
+        <h4>Total Study Hours</h4>
+
+        <h2 id="totalHours">
+          0
+        </h2>
+
+      </div>
+
+      <div class="card">
+
+        <h4>Goal</h4>
+
+        <h2>
+          Data Analyst 💼
+        </h2>
+
+      </div>
+
+      <div class="card">
+
+        <h4>Total Days</h4>
+
+        <h2>
+          45
+        </h2>
+
+      </div>
+
+    </div>
+
+    <!-- TRACKER -->
+
+    <div class="tracker">
+
+      <div class="top-bar">
+
+        <h2>
+          Daily Learning Tracker
+        </h2>
+
+        <div class="button-group">
+
+          <button id="saveBtn">
+            Save Data 💾
+          </button>
+
+          <button id="updateBtn">
+            Update Data 🔄
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- RESPONSIVE TABLE -->
+
+      <div class="table-wrapper">
+
+        <table>
+
+          <thead>
+
+            <tr>
+
+              <th>Day</th>
+
+              <th>Topic Covered</th>
+
+              <th>Hours</th>
+
+              <th>Excel</th>
+
+              <th>SQL</th>
+
+              <th>Python</th>
+
+              <th>Power BI</th>
+
+              <th>Tableau</th>
+
+              <th>Projects</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody id="trackerBody">
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+      Small daily progress creates
+      big success 📈
+
+    </div>
+
+  </div>
+
+  <script
+    type="module"
+    src="script.js"
+  ></script>
+
+</body>
+
 </html>
